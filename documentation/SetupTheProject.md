@@ -13,14 +13,13 @@
   * `favicon.ico` The default icon for the app.
 * `src` The root folder for all source code files
   * `assets` Static resource files
-  * [`main.js`](./01_InitialProjectFiles/src/main.js) Main Javascript file that initializes VueJS and defines what VueJS component will be inserted into the HTML page.
-  * [`App.vue`](./01_InitialProjectFiles/src/App.vue) Defines the app component that is referred by `index.html`. This is the starting point for all you VueJS code.
-  * `components` A folder containing VueJS components, there are no conventions how you structure your VueJS code, but it is recommended to have a suitable directory structure, so you easily find the code you are looking for.
-  * [`HelloWorld.vue`](./01_InitialProjectFiles/src/components/HelloWorld.vue) Example Hello World component.
+  * [`main.js`](./01_InitialProjectFiles/src/main.ts) Main Typescript file that initializes the Svelte app.
+  * [`App.Svelte`](./01_InitialProjectFiles/src/App.svelte) Defines the app component that is referred by `main.ts`. This is the starting point for all you Svelte code.
+
 
 ## Start up Visual Studio Code (or short VSCode)
 Start Visual Studio Code. Once it's started click on File -> Open Folder and select the folder the project was created in.
 
 ## Start up the local server for the first time
-Open a Terminal in VSCode and enter the following command `npm run serve`. The server will start on port 8080 on localhost, which is your computer. \
-Open a browser and enter [`http://localhost:8080/`](http://localhost:8080/) in the address line and you will see the Hello World Vue app.
+Open a Terminal in VSCode and enter the following command `npm run dev`. The server will start on port 8080 on localhost, which is your computer. \
+Open a browser and enter [`http://localhost:5000/`](http://localhost:5000/) in the address line and you will see the Hello World app.

@@ -184,7 +184,7 @@ const app = new App({
 export default app;
 ```
 ## [`src\App.svelte`](./01_InitialProjectFiles/src/App.svelte)
-A vue file has 3 segments:
+A svelte file has 3 segments:
 * script contains the Javascript code
 * style contains the css code
 * everthing else is the HTML code
