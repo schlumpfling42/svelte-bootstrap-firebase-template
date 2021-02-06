@@ -1,7 +1,7 @@
 # Setting up a Svelte Project
 I copied the instructions from the Svelte site.
-To run the commands open a Command Prompt or a Terminal. Go to a folder where you would like to create the project in. The `npx` command will create the project folder. The project name and resulting folder in the example below is `svelte-app`. If you don't like that, user a different name.
-We are going to use Typescript, so please follow the instructions in the Typescript section. When it askes you to rerun your dependency manager please type `npm install` in the Command Prompt/Terminal and hit the enter key.
+To run the commands open a Command Prompt or a Terminal. Go to a folder where you would like to create the project in. The `npx` command will create the project folder. The project name and resulting folder in the example below is `svelte-app`. If you don't like that, use a different name.
+We are going to use Typescript, so please follow the instructions in the Typescript section. When it asks you to rerun your dependency manager please type `npm install` in the Command Prompt/Terminal and hit the enter key.
 
 ---
 
