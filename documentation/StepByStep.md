@@ -10,3 +10,4 @@ A template for starting a new project with Svelte, Bootstrap and firebase. The t
 4. [Walk through the generated/initial project files](./InitialProjectFileWalkthrough.md)
 5. [Deploy the project to Firebase](./DeployInitialProjectToFirebase.md)
 6. [Add Bootstrap](./AddBootstrap.md)
+7. [Add Routing](./AddRouting.md)
