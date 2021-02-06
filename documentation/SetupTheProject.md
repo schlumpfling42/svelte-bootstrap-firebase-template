@@ -2,7 +2,8 @@
 ## Create a Svelte project
 [Here are the setup steps](./SvelteInit.md)
 
-Next open up VSCode and select the folder the project was created in.
+## Start up Visual Studio Code (or short VSCode)
+Start Visual Studio Code. Once it's started click on File -> Open Folder and select the folder the project was created in.
 
 ![Initial project files](./InitialProjectFiles.png)
 
@@ -17,11 +18,3 @@ Next open up VSCode and select the folder the project was created in.
   * `assets` Static resource files
   * [`main.js`](./01_InitialProjectFiles/src/main.ts) Main Typescript file that initializes the Svelte app.
   * [`App.Svelte`](./01_InitialProjectFiles/src/App.svelte) Defines the app component that is referred by `main.ts`. This is the starting point for all you Svelte code.
-
-
-## Start up Visual Studio Code (or short VSCode)
-Start Visual Studio Code. Once it's started click on File -> Open Folder and select the folder the project was created in.
-
-## Start up the local server for the first time
-Open a Terminal in VSCode and enter the following command `npm run dev`. The server will start on port 8080 on localhost, which is your computer. \
-Open a browser and enter [`http://localhost:5000/`](http://localhost:5000/) in the address line and you will see the Hello World app.
