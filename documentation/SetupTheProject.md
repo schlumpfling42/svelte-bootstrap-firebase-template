@@ -2,6 +2,8 @@
 ## Create a Svelte project
 [Here are the setup steps](./SvelteInit.md)
 
+Next open up VSCode and select the folder the project was created in.
+
 ![Initial project files](./InitialProjectFiles.png)
 
 * [`package.json`](./01_InitialProjectFiles/package.json) This is the central configuration file for node and npm. It contains packages that are being used and run/build instructions. 
