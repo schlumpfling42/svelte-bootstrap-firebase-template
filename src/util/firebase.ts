@@ -3,8 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 import { readable } from 'svelte/store';
 
-
-// Insert the code block starting with `const firebaseConfig = { ...` from the Firebase console.
+const firebaseConfig = {
+    apiKey: "AIzaSyBLRGGGYN_ugwTBM_MNfmcBrxXvzJbLYUw",
+    authDomain: "svelte-bootstrap-tutorial.firebaseapp.com",
+    projectId: "svelte-bootstrap-tutorial",
+    storageBucket: "svelte-bootstrap-tutorial.appspot.com",
+    messagingSenderId: "458671755623",
+    appId: "1:458671755623:web:2ea49ff195984ed31ddfc2"
+};
 
 // Initialize 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

@@ -4,3 +4,4 @@
 .DS_Store
 .firebaserc
 .firebase/hosting.cHVibGlj.cache
+src/util/firebase.ts
