@@ -1,5 +1,5 @@
 # Add Routing
-Routing allows users to click on links, or the app switch to a different "page" without actually going to a different page or loading a new page from the server. You have to define routes and then use links or a button press to route to a different component
+Routing is a very important part of Single Page Apps (SPA). It allows users to click on links, or the app switch to a different "page" without actually going to a different page or loading a new page from the server. You have to define routes and then use links or a button press to route to a different component
 ## Install svelte-router
 Open a Terminal in VSCode and run `npm install -D @spaceavocado/svelte-router`. This will install the package vue-router and add it to package.json.
 Please got to the [svelte-router](https://awesomeopensource.com/project/spaceavocado/svelte-router) to have a look at the documentation, we will only use a couple of elements.
