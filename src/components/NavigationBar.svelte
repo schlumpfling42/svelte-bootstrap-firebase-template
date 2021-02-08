@@ -37,7 +37,7 @@
       <DropdownMenu right>
         <DropdownItem>Option 1</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem on:click={()=> signOut()}>Signout</DropdownItem>
+        <DropdownItem on:click={signOut}>Signout</DropdownItem>
       </DropdownMenu>
     </UncontrolledDropdown>
     </Nav>

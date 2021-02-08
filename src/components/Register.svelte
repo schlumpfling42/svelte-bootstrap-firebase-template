@@ -118,7 +118,7 @@
             </Col>
             {/if}
             <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }} lg={{ size: 4, offset: 4 }}>
-                <Button variant="primary" on:click={()=>submit()} disabled={!canSubmit}>Register</Button>
+                <Button variant="primary" on:click={submit} disabled={!canSubmit}>Register</Button>
             </Col>
             <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }} lg={{ size: 4, offset: 4 }}>
                 <RouterLink to={{name: 'Login'}}>If you already have an account yet please log in</RouterLink>

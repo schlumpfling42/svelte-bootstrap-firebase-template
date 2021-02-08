@@ -7,7 +7,7 @@
 
   export let route;
   let loggedIn = false;
-	onDestroy(loggedInUser.subscribe(user => {
+  onDestroy(loggedInUser.subscribe(user => {
     if(user != null) {
       if(user.user == null) {
         loggedIn = false;
