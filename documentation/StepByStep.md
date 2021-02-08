@@ -12,4 +12,4 @@ A template for starting a new project with Svelte, Bootstrap and firebase. The t
 6. [Add Bootstrap](./AddBootstrap.md)
 7. [Add Routing](./AddRouting.md)
 8. [Add Firebase](./AddFirebase.md)
-7. [Add Registration and Login](./AddRegistrationAnLogin.md)
+9. [Add Registration and Login](./AddRegistrationAndLogin.md)
