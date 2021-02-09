@@ -10,6 +10,7 @@
     NavLink
   } from 'sveltestrap';
   import RouterLink from '@spaceavocado/svelte-router/component/link';
+  import {router} from '@spaceavocado/svelte-router';
   import { auth, loggedInUser } from '../util/firebase';
 
   let user;
@@ -20,20 +21,28 @@
     }
   });
 
+  function navigateTo(routeName) {
+    $router.push({name: routeName});
+  }
+
   function signOut() {
     auth.signOut();
   }
 </script>
 
-<Navbar color="info" light expand="md">
-  <NavbarBrand><RouterLink to={{name: 'Home'}}>Svelte Bootstrap Firebase</RouterLink></NavbarBrand>
+<Navbar color="info" dark expand="xs">
+  <NavbarBrand on:click={() => navigateTo("Home")}>Svelte Bootstrap Firebase</NavbarBrand>
   <Nav nav inNavbar class="ml-left">
-    <NavLink><RouterLink to={{name: 'Page1'}}>Page1</RouterLink></NavLink>
-    <NavLink><RouterLink to={{name: 'Page2'}}>Page2</RouterLink></NavLink>
+    <NavLink
+      on:click={() => navigateTo("Page1")}
+      >Page1</NavLink>
+    <NavLink 
+      on:click={() => navigateTo("Page2")}
+      >Page2</NavLink>
   </Nav>
   <Nav class="ml-auto" navbar>
-      <UncontrolledDropdown nav inNavbar>
-      <DropdownToggle nav caret>{user?.displayName}</DropdownToggle>
+    <UncontrolledDropdown>
+      <DropdownToggle color="info" nav dark caret>{user?.displayName}</DropdownToggle>
       <DropdownMenu right>
         <DropdownItem>Option 1</DropdownItem>
         <DropdownItem divider />
@@ -44,4 +53,10 @@
 </Navbar>
 
 <style>
+  :global(.nav > a) {
+    color: rgba(255,255,255,.5);
+  }
+  :global(.nav > a:hover) {
+    color: rgba(255,255,255,.75);
+  }
 </style>
